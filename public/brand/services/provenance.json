@@ -1,0 +1,22 @@
+[
+  {
+    "file": "google-maps-official.png",
+    "source_page": "https://maps.google.com/maps/about/",
+    "download_url": "https://www.gstatic.com/marketing-cms/assets/images/81/e4/1bdb808b40a28cc70ac24bf5e6fa/google-maps-favicon.png=s180",
+    "final_url": "https://www.gstatic.com/marketing-cms/assets/images/81/e4/1bdb808b40a28cc70ac24bf5e6fa/google-maps-favicon.png=s180",
+    "date_utc": "2026-10-21",
+    "content_type": "image/png",
+    "bytes": 18833,
+    "sha256": "b9bdc7e110fe7e57fb7142e09cfa276eb562c1222e321cd2f453c55b10d64291"
+  },
+  {
+    "file": "waze-official.png",
+    "source_page": "https://developers.google.com/waze/intro-transport",
+    "download_url": "https://developers.google.com/static/waze/images/logo_waze_color_2x_web_64dp.png",
+    "final_url": "https://developers.google.com/static/waze/images/logo_waze_color_2x_web_64dp.png",
+    "date_utc": "2026-10-21",
+    "content_type": "image/png",
+    "bytes": 22510,
+    "sha256": "40bff0961bb0fc36516a39cf8d1831d91e20d3f68f2bf32f299a2cf234df79e7"
+  }
+]

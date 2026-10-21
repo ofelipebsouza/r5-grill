@@ -1,0 +1,5 @@
+---
+const {service} = Astro.props;
+const filename = service === 'waze' ? 'waze-official.png' : 'google-maps-official.png';
+---
+<img class="map-service-icon" src={`/brand/services/${filename}`} width="32" height="32" alt="" loading="lazy" />

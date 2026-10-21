@@ -1,0 +1,23 @@
+---
+import Brand from './Brand.astro';
+import MapIcon from './MapIcon.astro';
+import Icon from './Icon.astro';
+import {waze,googleMapsDirections} from '../data/contact';
+const groups=[
+  {title:'Navegação',links:[['Início','/'],['A nossa casa','/#casa'],['Onde estamos','/#visita'],['Como pedir','/#pedidos']]},
+  {title:'Ementa',links:[['Todos os pratos','/#ementa'],['Picanha','/pratos/picanha-acompanhamentos-bebida/'],['Salada Mista','/pratos/salada-mista/'],['Peixe do Dia','/pratos/peixe-do-dia/'],['A minha seleção','/?selecao=1#ementa']]},
+  {title:'Marca',links:[['Guia da marca','/marca'],['Cores e aplicações','/marca#cores'],['Downloads oficiais','/marca#ficheiros'],['Kit Instagram','/instagram']]},
+  {title:'Informações',links:[['Origem dos preços','/fontes#precos'],['Imagens e referências','/fontes#imagens'],['Privacidade','/fontes#privacidade'],['Avaliações Uber Eats','/#avaliacoes']]}
+];
+---
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-identity"><Brand/><div><p class="footer-tagline">Grelhados com alma.<br/>À sua espera em Loures.</p><p>Centro Comercial Continente de Loures · Loja 61<br/>Quinta Casal da Pipa, EN 250, 2670-339 Loures</p></div></div>
+    <div class="footer-directions" aria-label="Como chegar">
+      <a href={googleMapsDirections} target="_blank" rel="noopener"><MapIcon service="google-maps"/><span>Google Maps</span><Icon name="arrow"/></a>
+      <a href={waze} target="_blank" rel="noopener"><MapIcon service="waze"/><span>Waze</span><Icon name="arrow"/></a>
+    </div>
+  </div>
+  <nav class="footer-nav" aria-label="Navegação do rodapé">{groups.map(group=><div class="footer-column"><h2>{group.title}</h2><ul>{group.links.map(([label,url])=><li><a href={url}>{label}</a></li>)}</ul></div>)}</nav>
+  <div class="footer-bottom"><p>R5 Grill · Santo António dos Cavaleiros, Loures.</p><a href="/fontes#precos">Preços de referência identificados por origem. Confirme antes de pedir.</a></div>
+</footer>
