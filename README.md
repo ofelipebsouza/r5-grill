@@ -24,6 +24,8 @@ Logo oficial fornecido pelo cliente e reconstruído em curvas SVG. Vermelho `#D5
 
 ## Conteúdo e limites
 
-O catálogo do Uber Eats contém 55 artigos consultados em 21/10/2026. Nomes e preços da plataforma foram preservados. A Salada Mista (8,00 € na referência) e o Peixe do Dia (sob consulta) foram adicionados separadamente, por pedido do cliente. Não foram equiparados ao Peixe do Uber Eats (12,00 €). As imagens ilustrativas recriadas com IA são identificadas; espécie e proteína incerta não são inferidas. Os dois novos artigos não têm um link Uber Eats inventado.
+O catálogo mantém os 55 artigos importados do Uber Eats e os 2 pedidos pelo cliente. `src/data/uber.json` preserva os dados originais da plataforma, mas os seus preços não são apresentados como preços presenciais. `src/data/restaurant-prices.json` contém as 10 correspondências inequívocas com preços na ementa do restaurante fornecida em 21/10/2026. Os outros 47 artigos/variantes aparecem como sob consulta, incluindo cervejas e volumes não confirmados. Não foi aplicado desconto percentual nem inferida equivalência entre pratos distintos.
+
+A foto indica bebida em copo e café nos pratos, não confirma três acompanhamentos à escolha. Não se equiparou o espetinho com bacon ao produto sem essa composição explícita, nem menus de bebida aos menus com cerveja. Salada Mista permanece a 8,00 €; Peixe do Dia, sob consulta. As imagens recriadas com IA continuam identificadas.
 
 O número telefónico de diretório público é preservado; atendimento por WhatsApp não confirmado. A seleção fica no armazenamento de sessão do navegador e abre uma mensagem editável no WhatsApp. Nada é enviado automaticamente e não há pagamentos no site. Fotos ilustrativas mantêm a identificação. Artes de campanha da proposta visual anterior não são promovidas como materiais prontos para publicação.

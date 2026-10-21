@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "picanha-acompanhamentos-bebida",
+    "name": "Picanha + Acompanhamentos + Bebida",
+    "price": "9,00",
+    "referenceName": "Picanha grelhada",
+    "source": "Ementa do restaurante fornecida em 21/10/2026",
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+  },
+  {
+    "slug": "grelhada-r5-acompanhamentos-bebida",
+    "name": "Grelhada R5 + Acompanhamentos + Bebida",
+    "price": "10,00",
+    "referenceName": "Grelhada R5",
+    "source": "Ementa do restaurante fornecida em 21/10/2026",
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+  },
+  {
+    "slug": "salsicha-toscana-acompanhamentos-bebida",
+    "name": "Salsicha Toscana + Acompanhamentos + Bebida",
+    "price": "7,00",
+    "referenceName": "Salsicha toscana",
+    "source": "Ementa do restaurante fornecida em 21/10/2026",
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+  },
+  {
+    "slug": "bife-de-frango-acompanhamentos-bebida",
+    "name": "Bife de Frango + Acompanhamentos + Bebida",
+    "price": "8,00",
+    "referenceName": "Bife de frango grelhado",
+    "source": "Ementa do restaurante fornecida em 21/10/2026",
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+  },
+  {
+    "slug": "entremeada-acompanhamentos-bebida",
+    "name": "Entremeada + Acompanhamentos + Bebida",
+    "price": "7,50",
+    "referenceName": "Entremeada",
+    "source": "Ementa do restaurante fornecida em 21/10/2026",
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+  },
+  {
+    "slug": "secreto-acompanhamentos-bebida",
+    "name": "Secreto + Acompanhamentos + Bebida",
+    "price": "9,00",
+    "referenceName": "Secretos de porco",
+    "source": "Ementa do restaurante fornecida em 21/10/2026",
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+  },
+  {
+    "slug": "bife-da-vazia-acompanhamentos-bebida",
+    "name": "Bife da Vazia + Acompanhamentos + Bebida",
+    "price": "10,50",
+    "referenceName": "Bife da vazia",
+    "source": "Ementa do restaurante fornecida em 21/10/2026",
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+  },
+  {
+    "slug": "picanha-gold-acompanhamentos-bebida",
+    "name": "Picanha Gold + Acompanhamentos + Bebida",
+    "price": "13,00",
+    "referenceName": "Picanha Gold",
+    "source": "Ementa do restaurante fornecida em 21/10/2026",
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+  },
+  {
+    "slug": "maminha-ao-alho-acompanhamentos-bebida",
+    "name": "Maminha ao Alho + Acompanhamentos + Bebida",
+    "price": "8,00",
+    "referenceName": "Maminha ao alho",
+    "source": "Ementa do restaurante fornecida em 21/10/2026",
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+  },
+  {
+    "slug": "salada-mista",
+    "name": "Salada Mista",
+    "price": "8,00",
+    "referenceName": "Salada mista",
+    "source": "Ementa do restaurante fornecida em 21/10/2026",
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+  }
+]
