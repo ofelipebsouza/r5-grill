@@ -35,5 +35,11 @@ document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(b=>b.addEv
 function render(){try{sessionStorage.setItem('r5-selection',JSON.stringify([...choices]));}catch{}const list=document.querySelector('#selected')!;list.replaceChildren();let total=0;choices.forEach((n,name)=>{total+=n;const li=document.createElement('li');const text=document.createElement('span');text.textContent=selectionLine(name,n);const b=document.createElement('button');b.textContent='Remover';b.setAttribute('aria-label',`Remover ${name}`);b.onclick=()=>{if(n>1)choices.set(name,n-1);else choices.delete(name);render();};li.append(text,b);list.append(li);});const whatsapp=document.querySelector<HTMLAnchorElement>('#order-whatsapp')!;whatsapp.href=whatsappOrder(choices);whatsapp.hidden=total===0;basket.hidden=total===0;document.querySelector<HTMLElement>('#selection-empty')!.hidden=total!==0;document.querySelector('#count')!.textContent=String(total);}
 document.querySelectorAll<HTMLButtonElement>('.add').forEach(b=>b.addEventListener('click',()=>{const name=b.dataset.product!;choices.set(name,(choices.get(name)||0)+1);render();b.classList.add('is-added');setTimeout(()=>b.classList.remove('is-added'),700);}));basket.onclick=()=>dialog.showModal();document.querySelector<HTMLButtonElement>('#close')!.onclick=()=>dialog.close();document.querySelector<HTMLButtonElement>('#copy')!.onclick=async()=>{try{await navigator.clipboard.writeText('Olá! Gostaria de confirmar disponibilidade para:\n'+[...choices].map(([n,q])=>selectionLine(n,q)).join('\n'));document.querySelector('#feedback')!.textContent='Seleção copiada.';}catch{document.querySelector('#feedback')!.textContent='Não foi possível copiar. Pode consultar a seleção acima durante a chamada.';}};
 render();
-if(new URLSearchParams(location.search).has('selecao'))dialog.showModal();
+if(new URLSearchParams(location.search).has('selecao')){
+  dialog.showModal();
+  // The browser can move focus to the URL fragment after opening the dialog.
+  const refocusSelection=()=>{if(dialog.open)dialog.querySelector<HTMLButtonElement>('#close')?.focus({preventScroll:true});};
+  if(document.readyState==='complete')setTimeout(refocusSelection,0);
+  else window.addEventListener('load',()=>setTimeout(refocusSelection,0),{once:true});
+}
 </script></body></html>
