@@ -1,5 +1,5 @@
-export const menu = [
-['Picanha grelhada','Vaca','9,00','O clássico que sabe sempre bem.'],['Grelhada R5','Vaca','10,00','Uma combinação de grelhados para quem gosta de variedade.'],['Picanha Gold','Vaca','13,00','A escolha para uma refeição especial.'],['Bife da vazia','Vaca','10,50','Um clássico da nossa grelha.'],['Maminha ao alho','Vaca','8,00','Maminha com o sabor inconfundível do alho.'],['Bife de frango grelhado','Frango','8,00','Simples, grelhado e cheio de sabor.'],['Espetinho de frango com bacon','Frango','8,00','Frango e bacon na mesma espetada.'],['Secretos de porco','Porco','9,00','Para os apreciadores de um bom grelhado.'],['Costeletão de novilho','Vaca','12,50','Uma escolha com presença à mesa.'],['Salsicha toscana','Porco','7,00','O sabor brasileiro na sua pausa.'],['Entremeada','Porco','7,50','Um dos clássicos da ementa.'],['Espetada de salmão com bacon','Peixe','10,50','Uma combinação entre o mar e a grelha.'],['Peixe do dia','Peixe',null,'Pergunte-nos qual é o peixe de hoje.'],['Salada mista','Saladas','8,00','Uma opção fresca para a sua refeição.']];
-export const slugify=(name: string)=>name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
-export const products=menu.map(([name,category,price,description],i)=>({name:name!,category:category!,price,description:description!,slug:slugify(name!),i}));
+import catalog from './uber.json';
+export const products=catalog.map((p,i)=>({...p,i}));
+export const menu=products.map(p=>[p.name,p.category,p.price,p.description]);
+export const slugify=(name:string)=>products.find(p=>p.name===name)?.slug || name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 export const eats="https://www.ubereats.com/pt/store/r5-grill-st-antonio-cavaleiros/4ebZsXLmS3SEjUKn45eU6Q";

@@ -1,1 +1,62 @@
-{"framework":"astro","buildCommand":"npm run build","outputDirectory":"dist"}
+{
+  "framework": "astro",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/pratos/picanha-grelhada",
+      "destination": "/pratos/picanha-acompanhamentos-bebida/",
+      "permanent": true
+    },
+    {
+      "source": "/pratos/grelhada-r5",
+      "destination": "/pratos/grelhada-r5-acompanhamentos-bebida/",
+      "permanent": true
+    },
+    {
+      "source": "/pratos/picanha-gold",
+      "destination": "/pratos/picanha-gold-acompanhamentos-bebida/",
+      "permanent": true
+    },
+    {
+      "source": "/pratos/bife-da-vazia",
+      "destination": "/pratos/bife-da-vazia-acompanhamentos-bebida/",
+      "permanent": true
+    },
+    {
+      "source": "/pratos/maminha-ao-alho",
+      "destination": "/pratos/maminha-ao-alho-acompanhamentos-bebida/",
+      "permanent": true
+    },
+    {
+      "source": "/pratos/bife-de-frango-grelhado",
+      "destination": "/pratos/bife-de-frango-acompanhamentos-bebida/",
+      "permanent": true
+    },
+    {
+      "source": "/pratos/espetinho-de-frango-com-bacon",
+      "destination": "/pratos/espetinho-de-frango-acompanhamentos-bebida/",
+      "permanent": true
+    },
+    {
+      "source": "/pratos/secretos-de-porco",
+      "destination": "/pratos/secreto-acompanhamentos-bebida/",
+      "permanent": true
+    },
+    {
+      "source": "/pratos/salsicha-toscana",
+      "destination": "/pratos/salsicha-toscana-acompanhamentos-bebida/",
+      "permanent": true
+    },
+    {
+      "source": "/pratos/entremeada",
+      "destination": "/pratos/entremeada-acompanhamentos-bebida/",
+      "permanent": true
+    },
+    {
+      "source": "/pratos/peixe-do-dia",
+      "destination": "/pratos/peixe/",
+      "permanent": true
+    }
+  ]
+}
