@@ -1,0 +1,6 @@
+---
+import Icon from './Icon.astro';
+import {eats} from '../data/menu';
+---
+<header class="site-header"><a href="/" class="brand" aria-label="R5 Grill início"><img src="/logo.svg" alt="" width="60" height="60"/><span>R5 GRILL<small>GRELHADOS COM ALMA</small></span></a><nav aria-label="Navegação principal"><a href="/#ementa">A ementa</a><a href="/#casa">A nossa casa</a><a href="/#visita">Onde estamos</a></nav><div class="header-actions"><a class="button small" href={eats} target="_blank" rel="noopener">Pedir online <Icon name="arrow"/></a><details class="mobile-nav"><summary aria-label="Abrir menu"><Icon name="menu"/></summary><nav aria-label="Navegação móvel"><a href="/#ementa">Explorar ementa</a><a href="/#casa">A nossa casa</a><a href="/#visita">Onde estamos</a><a href="/?selecao=1">A minha seleção</a><a href="tel:+351968299852">Ligar ao restaurante</a></nav></details></div></header>
+<script>document.querySelectorAll('.mobile-nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.mobile-nav')?.removeAttribute('open')));</script>
