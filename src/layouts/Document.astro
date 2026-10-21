@@ -1,5 +1,6 @@
 ---
+import Icon from "../components/Icon.astro";
 import '../styles/global.css';
 const {title}=Astro.props;
 ---
-<!doctype html><html lang="pt-PT"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><title>{title} | R5 Grill</title><meta name="robots" content="noindex"/><link rel="icon" href="/logo.svg"/></head><body><header><a class="brand" href="/"><img src="/logo.svg" width="65" height="65" alt="R5 Grill"/>R5 GRILL</a><a href="/" class="text-link">Voltar ao restaurante ↗</a></header><main class="section prose"><slot/></main><footer><a href="/marca">Guia da marca</a><a href="/instagram">Kit Instagram</a><a href="/fontes">Fontes e informações</a></footer></body></html>
+<!doctype html><html lang="pt-PT"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><title>{title} | R5 Grill</title><meta name="robots" content="noindex"/><link rel="icon" href="/logo.svg"/></head><body><header><a class="brand" href="/"><img src="/logo.svg" width="65" height="65" alt="R5 Grill"/>R5 GRILL</a><a href="/" class="text-link">Voltar ao restaurante <Icon name="arrow"/></a></header><main class="section prose"><slot/></main><footer><a href="/marca">Guia da marca</a><a href="/instagram">Kit Instagram</a><a href="/fontes">Fontes e informações</a></footer></body></html>
