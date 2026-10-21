@@ -1,5 +1,5 @@
 export function whatsappOrder(items: Iterable<[string, number]> = []) {
-  const lines = [...items].map(([name, quantity]) => `${quantity} × ${name}`);
+  const lines = [...items].map(([name, quantity]) => `${quantity} × ${name}${name === "Peixe do Dia" ? " (preço sob consulta)" : ""}`);
   const message = lines.length
     ? `Olá, R5 Grill! Gostaria de fazer este pedido:\n\n${lines.join('\n')}\n\nPodem confirmar o preço, a disponibilidade e as opções de recolha ou entrega? Obrigado!`
     : 'Olá, R5 Grill! Gostaria de obter informações sobre um pedido.';

@@ -52,11 +52,6 @@
       "source": "/pratos/entremeada",
       "destination": "/pratos/entremeada-acompanhamentos-bebida/",
       "permanent": true
-    },
-    {
-      "source": "/pratos/peixe-do-dia",
-      "destination": "/pratos/peixe/",
-      "permanent": true
     }
   ]
 }
