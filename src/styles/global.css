@@ -113,7 +113,9 @@ dialog .text-link{max-width:100%;width:fit-content}
   .mobile-nav{display:block}
   .mobile-nav summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:center;width:44px;height:44px;font-size:25px}
   .mobile-nav summary::-webkit-details-marker{display:none}
-  .mobile-nav nav{display:flex;position:absolute;top:82px;left:0;right:0;background:var(--brand-white);box-shadow:0 15px 25px #0002;padding:15px 6%;flex-direction:column;gap:0;max-height:calc(100dvh - 82px);overflow-y:auto}
+  .mobile-nav nav{display:flex;position:absolute;top:82px;left:0;right:0;background:var(--brand-white);box-shadow:0 15px 25px #0002;padding:15px 6%;flex-direction:column;gap:0;max-height:calc(100vh - 82px);max-height:calc(100dvh - 82px);overflow-y:auto}
+  /* Reserve the home announcement bar too when the viewport is short. */
+  .topline + .site-header .mobile-nav nav{max-height:calc(100vh - 114px);max-height:calc(100dvh - 114px)}
   .mobile-nav nav a{padding:16px 0;border-bottom:1px solid var(--brand-gray)}
   .product-hero{grid-template-columns:minmax(0,1fr);gap:28px;padding-top:0}
   .product-visual{position:static;max-width:680px;width:100%;margin:auto}
