@@ -1,5 +1,6 @@
 ---
 import Icon from './Icon.astro';
 const {product,large=false}=Astro.props;
+const packshot=product.category.startsWith("Bebidas") || ["Cerveja","Vinhos"].includes(product.category);
 ---
-{product.image ? <img class:list={['product-image',{large}]} src={product.image} alt={product.name} loading="lazy" referrerpolicy="no-referrer"/> : <div class="product-image no-photo"><Icon name="bag"/><span>Fotografia não disponível no Uber Eats</span></div>}
+{product.image ? <img class:list={['product-image',{large,packshot}]} src={product.image} alt={product.name} loading="lazy" referrerpolicy="no-referrer"/> : <div class="product-image no-photo"><Icon name="bag"/><span>Fotografia não disponível no Uber Eats</span></div>}

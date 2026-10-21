@@ -9,4 +9,16 @@
 
 .delivery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:32px 0}.delivery-grid article{padding:28px;border:1px solid #d9ccba;border-radius:18px}.delivery-grid h3{font-size:1.35rem;margin-bottom:16px}.delivery-grid p{line-height:1.7}.delivery-grid strong{font-size:1.8rem;color:#b9222b}@media(max-width:700px){.delivery-grid{grid-template-columns:1fr;gap:12px}}
 
-img.product-image{width:100%;height:100%;object-fit:contain;background:#fff;display:block}.no-photo{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:#efe8dc;color:#62584b;min-height:220px;text-align:center;padding:24px}.no-photo svg{width:44px;height:44px}.dish-photo img{transition:transform .3s}.dish-photo:hover img{transform:scale(1.04)}.product-rating{color:#735126;font-size:.85rem}.filters{flex-wrap:wrap}
+img.product-image{width:100%;height:100%;object-fit:cover;object-position:center;background:#eee5d7;display:block}.no-photo{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:#efe8dc;color:#62584b;min-height:220px;text-align:center;padding:24px}.no-photo svg{width:44px;height:44px}.dish-photo img{transition:transform .3s}.dish-photo:hover img{transform:scale(1.04)}.product-rating{color:#735126;font-size:.85rem}.filters{flex-wrap:wrap}
+
+/* Consistent photography: full-bleed food and cream-backed bottle packshots. */
+.dish-photo,.related-image,.product-visual>button{background:#eee5d7;isolation:isolate}
+.related-image{overflow:hidden}
+img.product-image.packshot{object-fit:contain;padding:22px;background:transparent;mix-blend-mode:multiply}
+.product-visual>button{aspect-ratio:5/4}
+.product-visual img.product-image{aspect-ratio:auto;position:absolute;inset:0;width:100%;height:100%}
+.product-visual img.packshot{padding:38px}
+.photo-dialog{background:#eee5d7;color:#302b26;border:0;border-radius:18px}
+.photo-dialog img.product-image{height:auto;max-height:72vh;object-fit:contain;background:transparent}
+.photo-dialog img.packshot{background:transparent}
+@media(prefers-reduced-motion:reduce){.dish-photo img{transition:none}.dish-photo:hover img{transform:none}}
