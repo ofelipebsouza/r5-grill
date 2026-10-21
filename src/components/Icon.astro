@@ -12,7 +12,9 @@ import phone from "@phosphor-icons/core/assets/regular/phone.svg?raw";
 import minus from "@phosphor-icons/core/assets/regular/minus.svg?raw";
 import zoom from "@phosphor-icons/core/assets/regular/magnifying-glass-plus.svg?raw";
 import menu from "@phosphor-icons/core/assets/regular/list.svg?raw";
-const icons={back,phone,minus,zoom,menu,arrow,down,plus,check,close,flame,search,bag};
+import whatsapp from "@phosphor-icons/core/assets/regular/whatsapp-logo.svg?raw";
+import navigation from "@phosphor-icons/core/assets/regular/navigation-arrow.svg?raw";
+const icons={whatsapp,navigation,back,phone,minus,zoom,menu,arrow,down,plus,check,close,flame,search,bag};
 const {name='arrow',class:className=''}=Astro.props;
 ---
 <span class:list={['ph-icon',className]} aria-hidden="true" set:html={icons[name as keyof typeof icons] || arrow}/>

@@ -22,3 +22,5 @@ img.product-image.packshot{object-fit:contain;padding:22px;background:transparen
 .photo-dialog img.product-image{height:auto;max-height:72vh;object-fit:contain;background:transparent}
 .photo-dialog img.packshot{background:transparent}
 @media(prefers-reduced-motion:reduce){.dish-photo img{transition:none}.dish-photo:hover img{transform:none}}
+
+.button.whatsapp{background:#176b44;color:#fff}.button.whatsapp:hover{background:#105334}.waze-link{margin-top:16px;display:flex;width:fit-content}.product-order-actions{flex-wrap:wrap}
