@@ -10,8 +10,8 @@ export const products=[...catalog.map(p=>({...p,sourceKind:"uber"})),...requeste
   const restaurant=restaurantPrices.find(item=>item.slug===p.slug);
   const priceKind=restaurant ? "restaurant" : p.sourceKind === "uber" && p.price ? "uber" : "unknown";
   const price=restaurant?.price || (priceKind === "uber" ? p.price : "");
-  return {...p,i,uberPrice:p.sourceKind === "uber" ? p.price : "",price,priceKind,priceDate:"21/10/2026",priceLabel:priceKind === "restaurant" ? "Restaurante · ementa" : priceKind === "uber" ? "Uber Eats · referência" : "Preço a confirmar",restaurantPriceSource:restaurant?.source || "",restaurantMenuNote:restaurant?.includes || "",
-    description:restaurant ? "Menu com bebida em copo e café. Confirme os acompanhamentos e a disponibilidade com o restaurante." : p.description};
+  return {...p,i,uberPrice:p.sourceKind === "uber" ? p.price : "",price,priceKind,priceDate:restaurant?.date || (priceKind === "uber" ? "21/10/2026" : ""),priceLabel:priceKind === "restaurant" ? "Restaurante · ementa" : priceKind === "uber" ? "Uber Eats · referência" : "Preço a confirmar",restaurantPriceSource:restaurant?.source || "",restaurantPriceImage:restaurant?.referenceImage || "",restaurantMenuNote:restaurant?.includes || "",
+    description:restaurant?.description || p.description};
 });
 export const menu=products.map(p=>[p.name,p.category,p.price,p.description]);
 export const slugify=(name:string)=>products.find(p=>p.name===name)?.slug || name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");

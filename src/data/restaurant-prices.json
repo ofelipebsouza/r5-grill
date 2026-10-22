@@ -3,49 +3,67 @@
     "slug": "picanha-acompanhamentos-bebida",
     "name": "Picanha + Acompanhamentos + Bebida",
     "price": "9,00",
-    "referenceName": "Picanha grelhada",
-    "source": "Ementa do restaurante fornecida em 21/10/2026",
-    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+    "referenceName": "Picanha com ou sem alho",
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
   },
   {
     "slug": "grelhada-r5-acompanhamentos-bebida",
     "name": "Grelhada R5 + Acompanhamentos + Bebida",
     "price": "10,00",
     "referenceName": "Grelhada R5",
-    "source": "Ementa do restaurante fornecida em 21/10/2026",
-    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
   },
   {
     "slug": "salsicha-toscana-acompanhamentos-bebida",
     "name": "Salsicha Toscana + Acompanhamentos + Bebida",
     "price": "7,00",
     "referenceName": "Salsicha toscana",
-    "source": "Ementa do restaurante fornecida em 21/10/2026",
-    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
   },
   {
     "slug": "bife-de-frango-acompanhamentos-bebida",
     "name": "Bife de Frango + Acompanhamentos + Bebida",
     "price": "8,00",
     "referenceName": "Bife de frango grelhado",
-    "source": "Ementa do restaurante fornecida em 21/10/2026",
-    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
   },
   {
     "slug": "entremeada-acompanhamentos-bebida",
     "name": "Entremeada + Acompanhamentos + Bebida",
     "price": "7,50",
     "referenceName": "Entremeada",
-    "source": "Ementa do restaurante fornecida em 21/10/2026",
-    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
   },
   {
     "slug": "secreto-acompanhamentos-bebida",
     "name": "Secreto + Acompanhamentos + Bebida",
     "price": "9,00",
     "referenceName": "Secretos de porco",
-    "source": "Ementa do restaurante fornecida em 21/10/2026",
-    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
   },
   {
     "slug": "bife-da-vazia-acompanhamentos-bebida",
@@ -53,30 +71,108 @@
     "price": "10,50",
     "referenceName": "Bife da vazia",
     "source": "Ementa do restaurante fornecida em 21/10/2026",
-    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade.",
+    "date": "21/10/2026",
+    "referenceImage": "/images/ementa.jpeg",
+    "description": "Menu com bebida em copo e café. Confirme os acompanhamentos e a disponibilidade com o restaurante."
   },
   {
     "slug": "picanha-gold-acompanhamentos-bebida",
     "name": "Picanha Gold + Acompanhamentos + Bebida",
     "price": "13,00",
     "referenceName": "Picanha Gold",
-    "source": "Ementa do restaurante fornecida em 21/10/2026",
-    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
   },
   {
     "slug": "maminha-ao-alho-acompanhamentos-bebida",
     "name": "Maminha ao Alho + Acompanhamentos + Bebida",
     "price": "8,00",
-    "referenceName": "Maminha ao alho",
-    "source": "Ementa do restaurante fornecida em 21/10/2026",
-    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+    "referenceName": "Maminha com ou sem alho",
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
   },
   {
     "slug": "salada-mista",
     "name": "Salada Mista",
     "price": "8,00",
     "referenceName": "Salada mista",
-    "source": "Ementa do restaurante fornecida em 21/10/2026",
-    "includes": "Bebida em copo e café incluídos na ementa fotografada. Confirme os acompanhamentos e a disponibilidade."
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
+  },
+  {
+    "slug": "maminha-acompanhamentos-bebida",
+    "name": "Maminha + Acompanhamentos + Bebida",
+    "price": "8,00",
+    "referenceName": "Maminha com ou sem alho",
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
+  },
+  {
+    "slug": "picanha-ao-alho-acompanhamentos-bebida",
+    "name": "Picanha ao Alho + Acompanhamentos + Bebida",
+    "price": "9,00",
+    "referenceName": "Picanha com ou sem alho",
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "Bebida em copo indicada para os pratos no preçário fotografado. Confirme os acompanhamentos, outras inclusões e a disponibilidade.",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Prato com bebida em copo. Confirme os acompanhamentos e a disponibilidade com o restaurante."
+  },
+  {
+    "slug": "doce-da-casa",
+    "name": "Doce da Casa",
+    "price": "2,00",
+    "referenceName": "Doce da casa",
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Sobremesa do preçário do restaurante. Confirme a composição e a disponibilidade."
+  },
+  {
+    "slug": "serra-dura",
+    "name": "Serra Dura",
+    "price": "2,00",
+    "referenceName": "Serradura",
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Serradura, conforme o preçário do restaurante. Confirme a composição e a disponibilidade."
+  },
+  {
+    "slug": "gelatina",
+    "name": "Gelatina",
+    "price": "2,00",
+    "referenceName": "Gelatina",
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Sobremesa do preçário do restaurante. Confirme os sabores e a disponibilidade."
+  },
+  {
+    "slug": "agua-sem-gas-33cl",
+    "name": "Água sem gás 33cl",
+    "price": "1,00",
+    "referenceName": "Água sem gás (33 cl)",
+    "source": "Preçário do restaurante fornecido e conferido em 22/10/2026; data de vigência não indicada",
+    "includes": "",
+    "date": "22/10/2026",
+    "referenceImage": "",
+    "description": "Água sem gás, 33 cl. Confirme a disponibilidade com o restaurante."
   }
 ]
